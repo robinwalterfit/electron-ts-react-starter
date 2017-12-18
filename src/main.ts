@@ -18,9 +18,9 @@ import * as url from 'url'
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
-let mainWindow: Electron.BrowserWindow | null = null;
+let mainWindow: Electron.BrowserWindow | null = null
 
-const isDevMode = process.execPath.match( /[\\/]electron/ );
+const isDevMode = process.mainModule.filename.indexOf( 'app.asar' ) === -1
 
 const createWindow = async () => {
 
