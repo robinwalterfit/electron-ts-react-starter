@@ -6,8 +6,6 @@ The electron-ts-react-starter repository can be used as a template to get starte
 
 These instructions will get you a copy of the project up and running on your local machine for development.
 
-**Note**: The `i18n` module is just a non-well working sample
-
 ### To Use
 
 To clone and run this repository you'll need [Git](https://git-scm.com/) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com/)) installed on your computer. From your command line:
@@ -16,7 +14,7 @@ To clone and run this repository you'll need [Git](https://git-scm.com/) and [No
 # Clone this repository
 $ git clone https://github.com/robinwalterfit/electron-ts-react-starter.ts
 # Go into the repository
-$ cd electron-ts-starter
+$ cd electron-ts-react-starter
 # Install dependencies
 $ npm install
 # Run the app
@@ -82,7 +80,7 @@ You have to check several files and change the entries according to your needs:
 
 ## Versioning
 
-I use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/robinwalterfit/electron-ts-starter/tags).
+I use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/robinwalterfit/electron-ts-react-starter/tags).
 
 ## Authors
 
