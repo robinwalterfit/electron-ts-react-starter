@@ -23,7 +23,7 @@ $ npm start
 
 ## Deployment
 
-This template uses the [Electron icon](https://github.com/electron/electron/blob/master/default_app/icon.png) by default.
+This template uses the [Electron icon](https://github.com/electron/electron/blob/master/default_app/icon.png) by default. First, remove the `isDevMode` and `DEVELOPER_TOOLS` in your `main.ts`. Otherwise your project won't work in production mode.
 
 ### Icons
 
